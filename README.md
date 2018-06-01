@@ -1,11 +1,11 @@
 ## MSAN 硬件组工作记录仓库
 ### MSAN 硬件组成员名单（打勾表示已生成github账号）
 - [X] 刘浩(liuhao798)
-- [X] 朱朴宁(pnzhu)
+- ~[X] 朱朴宁(pnzhu)~
 - [X] 秦毅(qinyi2018)
 - [X] 刘建桥(liujq2018)
 - [X] 王可(kwang2018)
-
+- [X] 陈志诚(chenzc2018)
 ### 日常使用方法简介
 #### Code
 - Code中存放各单盘的CPLD版本，历史版本的CPLD文件在这里可以方便的回滚和比较
