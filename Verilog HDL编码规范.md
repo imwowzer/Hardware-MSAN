@@ -15,15 +15,15 @@
 后缀信号命名采用下面的格式：
 ```
 <signal_prefix>_<signal name> [_async|_sync][_ns][_l][_z][_n][_nc][_test]
-	_async ：异步信号；	例如：异步复位信号表示为 rst_dsp_async ； 
-	_sync ：同步信号（可选）；	例如：同步复位信号表示为 rst_dsp_sync ； 
-	_ns ：状态机下一状态；	例如：状态机中的等待状态表示为 wait_ns ； 
-	_l ：锁存器输出；	例如：锁存器输出的保持信号表示为 hold_l ； 
-	_z ：高阻信号；	例如：三态总线的高阻信号表示为 tpi_bus_z ； 
-	_n ：低有效信号；	例如：低有效的复位信号表示为 rst_n ； 
-	_nc ：不连信号；	例如：不连的备用信号表示为 tp_nc ；
-	_pn：多周期路径第n 个周期使用的信号；例如：使用后缀data_3n；用单变量数组延时不在此列；
-	_test ：测试信号；	例如：测试信号表示为 clk_out_test ； 
+	_async ：异步信号；	例如：异步复位信号表示为 rst_dsp_async ； 
+	_sync ：同步信号（可选）；	例如：同步复位信号表示为 rst_dsp_sync ； 
+	_ns ：状态机下一状态；	例如：状态机中的等待状态表示为 wait_ns ； 
+	_l ：锁存器输出；	例如：锁存器输出的保持信号表示为 hold_l ； 
+	_z ：高阻信号；	例如：三态总线的高阻信号表示为 tpi_bus_z ； 
+	_n ：低有效信号；	例如：低有效的复位信号表示为 rst_n ； 
+	_nc ：不连信号；	例如：不连的备用信号表示为 tp_nc ；
+	_pn：多周期路径第n 个周期使用的信号；例如：使用后缀data_3n；用单变量数组延时不在此列；
+	_test ：测试信号；	例如：测试信号表示为 clk_out_test ； 
 ```
 #### 3.1.4	【规定】区分大小写
 所有的信号（signal）、变量（variable）以及模块（module）的名字都用小写字母，常量名（参数parameter和宏macro）用大写字母。不要依赖大小写给标识符增加语义。
@@ -536,57 +536,57 @@ assign clk25m_line1 =
 
 ### 3.14	 附录：常用单词缩写对应表
 表1 常用单词缩写对照表
----      -----     -----
-全称|	缩写|	中文含义
----       ---      --
-acknowledge	ack	应答
-adress	addr	地址
-arbiter	arb	仲裁
-check	chk	校验，如CRC校验
-clock	clk	时钟
-config	cfg	Configuration，配置
-control	ctl	控制
-count	cnt	计数
-data in	din	数据输入
-data out	dout	数据输出
-decode	de	译码
-decrease	dec	减一
-delay	dly	延时
-disable	dis	不使能
-error	err	错误（指示）
-enable	en	使能
-frame	frm	帧
-generate	gen	生成，如生成帧
-grant	gnt	申请通过
-increase	inc	加一
-input	in	输入
-length	len	（帧、包）长
-memory	mem	存储
-nmport	nm	网管相关
-output	out	输出
-packet	pkt	数据包
-priority	pri	优先级
-pointer	ptr	指针
-read enable	ren	读使能
-read	rd	读（操作）
-ready	rdy	应答信号或准备好
-receive	rx	（数据）接收
-request	req	（服务、仲裁）请求
-reset	rst	复位
-segment	seg	划分、分段
-source	scr	源（端口）
-ststistics	stat	统计
-switcher	sf	交换机
-timer	tmr	定时器
-temporary	tmp	临时
-transmit	tx	发送（帧数据）
-valid	vld	有效、校验正确
-write enable	wen	写使能
-write	wr	写（操作）
-bmu扣板接口信号（cpu类接口同此）
-bmu addr	addr_bmu[31:0]	32位地址总线
-bmu data	data_bmu[31:0]	32位数据总线
-interruption request	irq6_bmu	第n个中断请求（示例为6）
-bmu chip select	cs3_bmu	第n个片选信号（示例为3）
+
+|全称        |	缩写|	中文含义 |
+|------------|:---:| --:|
+|acknowledge	|ack	|应答|
+|adress|	addr|	地址|
+|arbiter	|arb	|仲裁|
+|check	|chk	|校验，如CRC校验|
+|clock	|clk	|时钟|
+|config	|cfg	|Configuration，配置|
+|control	|ctl	|控制|
+|count	|cnt	|计数|
+|data in	|din	|数据输入|
+|data out	|dout	|数据输出|
+|decode	|de	|译码|
+|decrease	|dec	|减一|
+|delay	|dly	|延时|
+|disable	|dis	|不使能|
+|error	|err	|错误（指示）|
+|enable	|en	|使能|
+|frame	|frm	|帧|
+|generate	|gen	|生成，如生成帧|
+|grant	|gnt	|申请通过|
+|increase	|inc	|加一|
+|input	|in	|输入|
+|length	|len	|（帧、包）长|
+|memory	|mem	|存储|
+|nmport	|nm	|网管相关|
+|output	|out	|输出|
+|packet	|pkt	|数据包|
+|priority	|pri	|优先级|
+|pointer	|ptr	|指针|
+|read enable	|ren	|读使能|
+|read	|rd	|读（操作）|
+|ready	|rdy	|应答信号或准备好|
+|receive	|rx	|（数据）接收|
+|request	|req	|（服务、仲裁）请求|
+|reset	|rst	|复位|
+|segment	|seg	|划分、分段|
+|source	|scr	|源（端口）|
+|ststistics	|stat	|统计|
+|switcher	|sf	|交换机|
+|timer	|tmr	|定时器|
+|temporary	|tmp	|临时|
+|transmit	|tx	|发送（帧数据）|
+|valid	|vld	|有效、校验正确|
+|write enable	|wen	|写使能|
+|write	|wr	|写（操作）|
+|bmu扣板接口信号（cpu类接口同此）|
+|bmu addr	|addr_bmu[31:0]	|32位地址总线|
+|bmu data	|data_bmu[31:0]	|32位数据总线|
+|interruption request	|irq6_bmu	|第n个中断请求（示例为6）|
+|bmu chip select	|cs3_bmu	|第n个片选信号（示例为3）|
 
 
