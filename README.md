@@ -1,7 +1,7 @@
 ## MSAN 硬件组工作记录仓库
 ### MSAN 硬件组成员名单（打勾表示已生成github账号）
-- ~[X] 刘浩(liuhao798)~
-- ~[X] 朱朴宁(pnzhu)~
+- ~刘浩(liuhao798)~
+- ~朱朴宁(pnzhu)~
 - [X] 秦毅(qinyi2018)
 - [X] 刘建桥(liujq2018)
 - [X] 王可(kwang2018)
@@ -14,3 +14,8 @@
 2. 对某个issue有想法，可以直接在issue下面回复，可以加附件
 #### Projects
 - 任务看板在这里
+### 友情链接
+#### 博通CSP
+- 博通账号 ：kwang@fiberhome.com.cn
+  密码：Gpon2017
+  密码找回问题答案：仙剑奇侠传
